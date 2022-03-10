@@ -1,0 +1,35 @@
+th, caption
+{
+    font-size:20pt;
+    background-color:cyan;
+    border:3px solid darkcyan;
+    font-weight:bold;
+}
+table
+{
+    border-spacing:0
+}
+td
+{
+    border:1px solid #606060;   
+}
+th[scope="col"]
+{
+    column-width:300px;
+}
+th[scope="row"]
+{
+     font-size:45pt;
+}
+#pagetitle
+{
+    font-size:50pt;
+}
+thead    th
+{
+    background-color:aquamarine;
+}
+th + td
+{
+    font-weight:bold;    
+}

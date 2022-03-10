@@ -1,0 +1,15 @@
+@font-face
+{
+	font-family:'PatrickHand';
+	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+p
+{
+	font-family:'PatrickHand';
+}
+
+body
+{
+    background-color:#add8e6;
+}

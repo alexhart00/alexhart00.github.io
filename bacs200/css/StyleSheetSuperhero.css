@@ -1,0 +1,34 @@
+caption
+{
+    font-size:20pt;
+    font-weight:bold;
+    background-color:lightgoldenrodyellow;
+    border:4px solid black;
+}
+th
+{
+    font-size:20pt;
+    font-weight:bold;
+    background-color:lightgoldenrodyellow;
+    border:1px solid black;
+    width:200px;
+}
+table
+{
+    border:3px solid black;
+    border-spacing:0;
+    text-align:center;
+}
+td
+{
+    border:1px solid #606060;
+    
+}
+.colheader
+{
+    column-width:300px;
+}
+.rowheader
+{
+     font-size:45pt;
+}
