@@ -13,3 +13,9 @@ body
 {
     background-color:#add8e6;
 }
+
+iframe
+{
+    width:70%;
+    height:500px;
+}
