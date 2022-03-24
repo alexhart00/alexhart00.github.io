@@ -4,7 +4,7 @@
 	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
 }
 
-p
+p, h1, h2, h3
 {
 	font-family:'PatrickHand';
 }

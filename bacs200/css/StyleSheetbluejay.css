@@ -1,0 +1,64 @@
+@font-face
+{
+	font-family:'PatrickHand';
+	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+p, h1, h2, h3
+{
+	font-family:'PatrickHand';
+}
+
+body
+{
+    text-align:center;
+    background-color:#cb7e7a;
+}
+
+iframe
+{
+    width:70%;
+    height:500px;
+}
+
+#V
+{
+    transform: rotate(90deg);
+}
+
+th, caption
+{
+    font-size:20pt;
+    background-color:cyan;
+    border:3px solid darkcyan;
+    font-weight:bold;
+}
+table
+{
+    text-align:center;
+    border-spacing:0
+}
+td
+{
+    border:1px solid #606060;   
+}
+th[scope="col"]
+{
+    column-width:300px;
+}
+th[scope="row"]
+{
+     font-size:45pt;
+}
+#pagetitle
+{
+    font-size:50pt;
+}
+thead    th
+{
+    background-color:aquamarine;
+}
+th + td
+{
+    font-weight:bold;    
+}
