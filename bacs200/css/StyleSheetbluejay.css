@@ -4,7 +4,7 @@
 	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
 }
 
-p, h1, h2, h3
+p, h1, h2, h3, header
 {
 	font-family:'PatrickHand';
 }
@@ -15,22 +15,11 @@ body
     background-color:#cb7e7a;
 }
 
-iframe
-{
-    width:70%;
-    height:500px;
-}
-
-#V
-{
-    transform: rotate(90deg);
-}
-
 th, caption
 {
     font-size:20pt;
-    background-color:cyan;
-    border:3px solid darkcyan;
+    background-color:red;
+    border:3px solid blue;
     font-weight:bold;
 }
 table
@@ -46,6 +35,12 @@ th[scope="col"]
 {
     column-width:300px;
 }
+th[scope="Topcol"]
+{
+    column-width:640px;
+    background-color:white;
+    border:0px;
+}
 th[scope="row"]
 {
      font-size:45pt;
@@ -56,9 +51,28 @@ th[scope="row"]
 }
 thead    th
 {
-    background-color:aquamarine;
+    background-color:red;
 }
 th + td
 {
     font-weight:bold;    
+}
+ul
+{
+    text-align:left; 
+    padding-left:100px;
+}
+
+#pic
+{
+    border:20px solid black;
+    margin:20px;
+}
+#Contact
+{
+    text-align:right;
+    padding-Right:60px;
+}
+table[scope="Toptable"]
+{
 }
