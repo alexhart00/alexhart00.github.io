@@ -3,7 +3,10 @@
 	font-family:'PatrickHand';
 	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
 }
-
+section
+{
+    padding-top:1s00px;     
+}
 p, h1, h2, h3, header
 {
 	font-family:'PatrickHand';
@@ -68,6 +71,25 @@ ul
     border:20px solid black;
     margin:20px;
 }
+
+.icetable .beertable .lotterytable .left
+{
+    border:10px solid black;
+    align:left;
+    height:300px;
+    width:400px;
+    margin-top:500px;
+}
+
+.snacktable .cigtable .right
+{
+    border:10px solid black;
+    align:right;
+    height:300px;
+    width:400px;
+    padding-right:50px;
+}
+
 #Contact
 {
     text-align:right;
