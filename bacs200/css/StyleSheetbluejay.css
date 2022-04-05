@@ -5,8 +5,16 @@
 }
 section
 {
-    padding-top:1s00px;     
+    padding-top:100px;     
 }
+
+.Toptable
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 p, h1, h2, h3, header
 {
 	font-family:'PatrickHand';
@@ -75,19 +83,21 @@ ul
 .icetable .beertable .lotterytable .left
 {
     border:10px solid black;
-    align:left;
+    text-align:left;
     height:300px;
     width:400px;
     margin-top:500px;
+    margin-right:auto;
 }
 
 .snacktable .cigtable .right
 {
     border:10px solid black;
-    align:right;
     height:300px;
     width:400px;
     padding-right:50px;
+    text-align:right;
+    margin-left:auto;
 }
 
 #Contact
@@ -97,4 +107,6 @@ ul
 }
 table[scope="Toptable"]
 {
+}
+.top {
 }
