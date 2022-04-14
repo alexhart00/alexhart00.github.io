@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1">
         <title>Travel Brochure</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		
+		<style>
+        .carousel-item img
+            {
+                height:400px;
+                width:1350px;
+            }
+        </style>
+        
     </head>
 	<header class="text-center">
             <div class="containter-fluid bg-danger">
@@ -15,13 +23,13 @@
                 </div>
                 <div class="row">
                     <div class="col-md">
-                        <a class="nav-item" href="">Home</a>
+                        <a class="nav-item" href="">Home Page</a>
                     </div>
                     <div class="col-md">
-                        <a class="nav-item" href="">Link2</a>
+                        <a href="buy.html">Buy Page</a>
                     </div>
                     <div class="col-md">
-                        <a class="nav-item" href="">Link3</a>
+                        <a href="index.html">Return to index</a>
                     </div>
                 </div>
             </div>
@@ -38,34 +46,35 @@
 						</div>
 						<div class="carousel-inner">
 						  <div class="carousel-item active">
-							<svg class="bd-placeholder-img text-center" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/><img src="Photos/OperaHouse.jfif" alt="OperaHouse.jfif" style="height:400px; Width:1175px; text-align: center;" ></svg>
+							<img class="img-fluid rounded mx-auto d-block" src="Photos/OperaHouse.jfif" alt="OperaHouse.jfif">
+                              <!---<svg class="bd-placeholder-img text-center" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>--->
 
 							<div class="container">
 							  <div class="carousel-caption text-start">
-								<h1>Example headline.</h1>
-								<p>Some representative placeholder content for the first slide of the carousel.</p>
-								<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+								<h1>Sydney Opera House</h1>
+								<p>is a multi-venue performing arts centre in Sydney.</p>
+								<p><a class="btn btn-lg btn-primary" href="#">See what is playing</a></p>
 							  </div>
 							</div>
 						  </div>
-						  <div class="carousel-item">
-							<img src="Photos/City.jpg" alt="City.jpg" style="height:400px;  Width:1175px;" >
+						  <div class="carousel-item justify-content-center">
+							<img class="img-fluid rounded mx-auto d-block" src="Photos/City.jpg" alt="City.jpg">
 
 							<div class="container">
 							  <div class="carousel-caption">
-								<h1>Another example headline.</h1>
-								<p>Some representative placeholder content for the second slide of the carousel.</p>
-								<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+								<h1>A Welcoming City</h1>
+								<p>Some of nicest people you will ever meet</p>
+								<p><a class="btn btn-lg btn-primary" href="#">Find a tour</a></p>
 							  </div>
 							</div>
 						  </div>
 						  <div class="carousel-item">
-							<img src="Photos/Bridge.jfif"  alt="Bridge.jfif" style="height:400px;  Width:1175px;" >
+							<img class="img-fluid rounded mx-auto d-block" src="Photos/Bridge.jfif"  alt="Bridge.jfif">
 
 							<div class="container">
 							  <div class="carousel-caption text-end">
-								<h1>One more for good measure.</h1>
-								<p>Some representative placeholder content for the third slide of this carousel.</p>
+								<h1>Cross the Bridge</h1>
+								<p>No trolls live under this bridge</p>
 								<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
 							  </div>
 							</div>
@@ -124,51 +133,51 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Free</h4>
+            <h4 class="my-0 fw-normal">Starter Plan</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$800</h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>Four Star Hotel</li>
+              <li>Snorkeling in the Great Barrier Reef</li>
+              <li>Access To Top Quality Wines</li>
+              <li>Rental Car</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><a class="text-light" href="buy.html">Purchase</a></button>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Pro</h4>
+        <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+          <div class="card-header py-3 text-white bg-secondary border-secondary">
+            <h4 class="my-0 fw-normal">Pro Tourist</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$1,600</h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li>Upgraded FIve Star Hotel</li>
+              <li>Fun In The Sun Beach Pass</li>
+              <li>Helicopter tour</li>
+              <li>All previous tiers included</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><a class="text-light" href="buy.html">Purchase</a></button>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-white bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Enterprise</h4>
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="card-header py-3 text-white bg-danger border-danger">
+            <h4 class="my-0 fw-normal">Enthusiastic Tourist</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">$3,200</h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>$1000 in Casino Chips</li>
+              <li>$400 in Gift Cards</li>
+              <li>$100 Raffle ticket entry</li>
+              <li>All previous tiers included</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><a class="text-light" href="buy.html">Purchase</a></button>
           </div>
         </div>
       </div>
@@ -176,7 +185,7 @@
 	</main>
     <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2021–2069 Four Bars Travel Agency. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="index.html">Return to index</a></p>
+        <p>&copy; 2021–2069 Four Bars Travel Agency. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> &middot; <a href="bacs200/index.html">Return to index</a></p>
       </footer>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
