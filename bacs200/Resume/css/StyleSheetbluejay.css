@@ -1,0 +1,112 @@
+@font-face
+{
+	font-family:'PatrickHand';
+	src:url('/bacs200/css/Fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+section
+{
+    padding-top:100px;     
+}
+
+.Toptable
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+p, h1, h2, h3, header
+{
+	font-family:'PatrickHand';
+}
+
+body
+{
+    text-align:center;
+    background-color:#cb7e7a;
+}
+
+th, caption
+{
+    font-size:20pt;
+    background-color:red;
+    border:3px solid blue;
+    font-weight:bold;
+}
+table
+{
+    text-align:center;
+    border-spacing:0
+}
+td
+{
+    border:1px solid #606060;   
+}
+th[scope="col"]
+{
+    column-width:300px;
+}
+th[scope="Topcol"]
+{
+    column-width:640px;
+    background-color:white;
+    border:0px;
+}
+th[scope="row"]
+{
+     font-size:45pt;
+}
+#pagetitle
+{
+    font-size:50pt;
+}
+thead    th
+{
+    background-color:red;
+}
+th + td
+{
+    font-weight:bold;    
+}
+ul
+{
+    text-align:left; 
+    padding-left:100px;
+}
+
+#pic
+{
+    border:20px solid black;
+    margin:20px;
+}
+
+.icetable .beertable .lotterytable .left
+{
+    border:10px solid black;
+    text-align:left;
+    height:300px;
+    width:400px;
+    margin-top:500px;
+    margin-right:auto;
+}
+
+.snacktable .cigtable .right
+{
+    border:10px solid black;
+    height:300px;
+    width:400px;
+    padding-right:50px;
+    text-align:right;
+    margin-left:auto;
+}
+
+#Contact
+{
+    text-align:right;
+    padding-Right:60px;
+}
+table[scope="Toptable"]
+{
+}
+.top {
+}
